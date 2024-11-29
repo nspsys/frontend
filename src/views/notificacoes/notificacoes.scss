@@ -1,0 +1,15 @@
+.container {
+  margin: 30px;
+}
+.notifications {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  .notifications-content {
+    padding: 30px;
+  }
+  .notifications-filter {
+    margin-top: 60px;
+    margin-left: 90px;
+    border: solid 1px gray;
+  }
+}

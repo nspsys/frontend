@@ -1,0 +1,29 @@
+.p-datatable {
+  .p-datatable-table {
+    .p-datatable-thead {
+      background-color: #352b91;
+      tr {
+        th {
+          background: none;
+          .p-column-header-content {
+            span {
+              color: white;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 18.75px;
+              text-align: left;
+
+              svg {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.p-datatable-header-cell {
+  color: white !important;
+}

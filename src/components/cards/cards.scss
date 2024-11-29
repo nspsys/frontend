@@ -1,0 +1,40 @@
+.card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0;
+  .p-card {
+    margin: 0 10px;
+    width: 266px;
+    height: 166px;
+    background: linear-gradient(180deg, #5646e1 0%, #322889 100%);
+    border-radius: 19.46px;
+
+    .p-card-subtitle {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 23.44px;
+      text-align: center;
+      color: #fff;
+      margin: 0;
+    }
+    .p-card-content {
+      font-family: Roboto;
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 46.88px;
+      text-align: center;
+      color: #fff;
+      height: 85px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .p-card-body {
+      padding: 0.8rem;
+      height: 90px;
+    }
+  }
+}
